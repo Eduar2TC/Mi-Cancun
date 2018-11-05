@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <!--Estilos personalizados-->
+  <link rel="stylesheet" href="css/mistilo.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <!--MENU DE NAVEGACION-->
+  <div class="navbar-fixed">
+    <nav class="cyan lighten-3">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#inicio" class="brand-logo">
+            <i class="large material-icons teal-text">location_city</i>Mi Cancún
+          </a>
+          <!--BOTON PARA PANTALLAS PEQUENAS-->
+          <a href="#" data-activates="navegacion-movil" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+              <a href="#hoteles">Hoteles</a>
+            </li>
+            <li>
+              <a href="#playas">Playas</a>
+            </li>
+            <li>
+              <a href="#cenotesIslas">Cenotes e Islas</a>
+            </li>
+            <li>
+              <a href="#parques">Parques</a>
+            </li>
+            <li>
+              <a href="#centros">Centros comerciales</a>
+            </li>
+            <li>
+              <a href="#antros">Antros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--ACTIVACION DEL MENU EN PANTALLAS CHICAS-->
+  <ul class="side-nav" id="navegacion-movil">
+
+    <li>
+      <a href="#inicio">
+        <i class="material-icons">home</i>Inicio</a>
+    </li>
+    <li>
+      <a href="#hoteles">
+        <i class="material-icons">local_hotel</i>Hoteles</a>
+    </li>
+    <li>
+      <a href="#playas">
+        <i class="material-icons">beach_access</i>Playas</a>
+    </li>
+    <li>
+      <a href="#cenotesIslas">
+        <i class="material-icons">terrain</i>Cenotes e Islas</a>
+    </li>
+    <li>
+      <a href="#parques">
+        <i class="material-icons">local_parking</i>Parques</a>
+    </li>
+    <li>
+      <a href="#centros">
+        <i class="material-icons">local_grocery_store</i>Centros comerciales</a>
+    </li>
+    <li>
+      <a href="#antros">
+        <i class="material-icons">brightness_2</i>Antros</a>
+    </li>
+  </ul>
+  <!--FIN MENU DE NAVEGACION-->
+
+
+
+
+
+  <!--INICIO SECCION: SLIDER-->
+  <section class="slider">
+    <ul class="slides">
+      <!--Hoteles-->
+      <li>
+        <img src="img/hotel01.jpg" alt="hotel">
+        <div class="caption center-align">
+          <h2>Hospedaje</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Sugerencias a los mejores hoteles de la zona</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Playas-->
+      <li>
+        <img src="img/playa01.jpg" alt="playas">
+        <div class="caption left-align">
+          <h2>Hospedaje</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Sugerencias a las mas populares playas de Cancún</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Parques-->
+      <li>
+        <img src="img/parques01.jpg" alt="parques">
+        <div class="caption rigth-align">
+          <h2>Parques</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Convive con tu familia y amigos de paseos al aire libre en zonas destinadas para pasarla bien.</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Islas-->
+      <li>
+        <img src="img/isla01.jpg" alt="islas">
+        <div class="caption center-align">
+          <h2>Islas</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+            <Datag>Visita hermosas islas y disfruta de su inigualable la naturaleza</Datag>
+          </h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Centros comerciales-->
+      <li>
+        <img src="img/compras01.jpg" alt="centros_comerciales">
+        <div class="caption center-align">
+          <h2>Centros comerciales</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Compra y gasta todo el dinero que tengas en cosas que utilizarás una sola véz</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Antros-->
+      <li>
+        <img src="img/noche01.jpg" alt="antros">
+        <div class="caption left-align">
+          <h2>Antros</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Centros nocturnos para emborracharse y divertirse como locos</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Cenotes-->
+      <li>
+        <img src="img/cenote01.jpg" alt="cenotes">
+        <div class="caption rigth-align">
+          <h2>Hermosos Cenotes</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Visita y asombrate de impresionantes Cenotes de los lugarez de la zona</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!--FIN SECCION: SLIDER-->
+
+  <!--SECCION LUGARES-->
+  <div class="center">
+    <h2 id="vision">Nuestra visión</h2>
+    <p class="grey-text">Ofrecerte facilidad para que el proximo viaje de tu vida sea una experiencia inolvidable.
+      <br>Hecha una vistazo a los sitios más populares de la zona para pasarla super en solitario, con tus amigos o con toda
+      tu familia.</p>
+  </div>
+
+  <!--SECCION ICON BOXES-->
+
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">room</i>
+            <h4>Pick Where</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">store</i>
+            <h4>Travel Shop</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">airplanemode_active</i>
+            <h4>Fly Cheap caca</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">airplanemode_active</i>
+            <h4>Fly Cheap caca</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod id. Voluptas alias dicta molestiae odit nemo minus at
+  soluta veritatis assumenda. Nisi eius fuga vitae. Nulla illo rem facere.
+  <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod id. Voluptas alias dicta molestiae odit nemo minus
+  at soluta veritatis assumenda. Nisi eius fuga vitae. Nulla illo rem facere.
+  <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod id. Voluptas alias dicta molestiae odit nemo minus
+  at soluta veritatis assumenda. Nisi eius fuga vitae. Nulla illo rem facere.
+  <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod id. Voluptas alias dicta molestiae odit nemo minus
+  at soluta veritatis assumenda. Nisi eius fuga vitae. Nulla illo rem facere.
+  <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod id. Voluptas alias dicta molestiae odit nemo minus
+  at soluta veritatis assumenda. Nisi eius fuga vitae. Nulla illo rem facere.
+  <br>
+
+
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js "></script>
+  <script>
+    $(document).ready(
+      function () {
+        //Inicializa el Side nav
+        $('.button-collapse').sideNav();
+
+        //inicializa el slider
+        $('.slider').slider({
+          indicators: false,
+          height: 400,
+          transition: 500,
+          interval: 6000
+        });
+      }
+    );
+  </script>
+
+
+</body>
+
+</html>

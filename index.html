@@ -1,0 +1,2097 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <!--Estilos personalizados-->
+  <link rel="stylesheet" href="css/mistilo.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Teko" rel="stylesheet">
+  <title>MiCancún - Inicio</title>
+</head>
+
+<body>
+  <!--MENU DE NAVEGACION-->
+  <div class="navbar-fixed">
+    <nav class="cyan lighten-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#inicio" class="brand-logo">
+            <i class="large material-icons teal-text">location_city</i>Mi Cancún
+          </a>
+          <!--Boton para pantallas pequenias-->
+          <a href="#" data-activates="navegacion-movil" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <!--Ocultando items a medianas y chicas pantallas-->
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+              <!-- Activador del dropdown-->
+              <a class="dropdown-trigger" href="#lugares" data-activates="dropdown1">Recomendaciones
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+              <!--Contenido del dropdown-->
+              <ul id="dropdown1" class="dropdown-content">
+                <li>
+                  <a href="#hoteles">Hoteles</a>
+                </li>
+                <li>
+                  <a href="#playas">Playas</a>
+                </li>
+                <li>
+                  <a href="#cenotesIslas">Cenotes e Islas</a>
+                </li>
+                <li>
+                  <a href="#parques">Parques</a>
+                </li>
+                <li>
+                  <a href="#centros">Centros comerciales</a>
+                </li>
+                <li>
+                  <a href="#antros">Antros</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#nosotros">Nosotros</a>
+            </li>
+            <li>
+              <a href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--ACTIVACION DEL MENU EN PANTALLAS CHICAS-->
+  <ul class="side-nav" id="navegacion-movil">
+
+    <li id="inicioMovil">
+      <a href="#inicio" class="collapsible-header waves-effect waves-teal bold">
+        <i class="material-icons">home</i>Inicio</a>
+    </li>
+
+    <li class="no-padding">
+      <!--Menu acordeon colapseable-->
+      <ul class="collapsible">
+
+        <li class="bold">
+          <!--Encabezado del acordeon-->
+          <div class="collapsible-header waves-effect waves-teal bold">
+            <i class="material-icons">expand_more</i>Lugares
+          </div>
+          <div class="collapsible-body">
+            <ul>
+              <li>
+                <a href="#hoteles">
+                  <i class="material-icons">local_hotel</i>Hoteles</a>
+              </li>
+              <li>
+                <a href="#playas">
+                  <i class="material-icons">beach_access</i>Playas</a>
+              </li>
+              <li>
+                <a href="#cenotesIslas">
+                  <i class="material-icons">terrain</i>Cenotes e Islas</a>
+              </li>
+              <li>
+                <a href="#parques">
+                  <i class="material-icons">local_parking</i>Parques</a>
+              </li>
+              <li>
+                <a href="#centros">
+                  <i class="material-icons">local_grocery_store</i>Centros comerciales</a>
+              </li>
+              <li>
+                <a href="#antros">
+                  <i class="material-icons">brightness_2</i>Antros</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+
+    <li id="nosotrosMovil">
+      <a href="#nosotros" class="collapsible-header waves-effect waves-teal bold">
+        <i class="material-icons">supervisor_account</i>Nosotros</a>
+    </li>
+
+    <li id="contactoMovil">
+      <a href="#contacto" class="collapsible-header waves-effect waves-teal bold">
+        <i class="material-icons">add_comment</i>Contacto</a>
+    </li>
+
+  </ul>
+  <!--FIN MENU DE NAVEGACION-->
+
+
+
+  <!--INICIO SECCION: SLIDER-->
+  <section class="slider">
+    <ul class="slides">
+      <!--Hoteles-->
+      <li>
+        <img src="img/hotel01.jpg" alt="hotel">
+        <div class="caption center-align">
+          <h2>Hospedaje</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Sugerencias a los mejores hoteles de la zona</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Playas-->
+      <li>
+        <img src="img/playa01.jpg" alt="playas">
+        <div class="caption left-align">
+          <h2>Hospedaje</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Sugerencias a las mas populares playas de
+            Cancún</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Parques-->
+      <li>
+        <img src="img/parques01.jpg" alt="parques">
+        <div class="caption rigth-align">
+          <h2>Parques</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Convive con tu familia y amigos de paseos al
+            aire libre en zonas destinadas para pasarla bien.</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Islas-->
+      <li>
+        <img src="img/isla01.jpg" alt="islas">
+        <div class="caption center-align">
+          <h2>Islas</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+            <Datag>Visita hermosas islas y disfruta de su inigualable la naturaleza</Datag>
+          </h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Centros comerciales-->
+      <li>
+        <img src="img/compras01.jpg" alt="centros_comerciales">
+        <div class="caption center-align">
+          <h2>Centros comerciales</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Compra y gasta todo el dinero que tengas en
+            cosas que utilizarás una sola véz</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Antros-->
+      <li>
+        <img src="img/noche01.jpg" alt="antros">
+        <div class="caption left-align">
+          <h2>Antros</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Centros nocturnos para emborracharse y
+            divertirse como locos</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+      <!--Cenotes-->
+      <li>
+        <img src="img/cenote01.jpg" alt="cenotes">
+        <div class="caption rigth-align">
+          <h2>Hermosos Cenotes</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Visita y asombrate de impresionantes Cenotes de
+            los lugarez de la zona</h5>
+          <a href="#" class="btn btn-large">Saber mas...</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!--FIN SECCION: SLIDER-->
+  <div id="contenedor1" class="container">
+    <!--SECCION VISION-->
+    <section class="center">
+      <h2 id="recomandaciones" class="center">
+        Nuestra
+        <span class="cyan-text">visión</span>
+      </h2>
+      <p class="grey-text">Ofrecerte facilidad para que el proximo viaje de tu vida sea una experiencia inolvidable.
+        Hecha una vistazo a los sitios
+        más populares de la zona para pasarla super en solitario, con tus amigos o con toda tu familia.</p>
+    </section>
+    <!--FIN SECCION VISION-->
+
+  </div>
+  <!--SECCION ICON BOXES-->
+
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">room</i>
+            <h4>Lugares</h4>
+            <p>Parques, playas, cenotes islas, y moda.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large red-text">store</i>
+            <h4>Familia</h4>
+            <p>Comvivencia familiar. Diversión al aire libre.
+              <br>
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large blue-text">group</i>
+            <h4>Turismo</h4>
+            <p>Hermosos paisajes, gente amigable.</p>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card-panel">
+            <i class="material-icons large amber-text">mood</i>
+            <h4>Diversión</h4>
+            <p>Eventos y sitios de diversión toda hora.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FIN DE SECCION ICON BOXES-->
+
+  <!--INICIO DEL CONTENEDOR DE LUGARES CHIDOS-->
+  <div id="contenedor2" class="container">
+
+    <section>
+      <h2 id="recomandaciones" class="center">
+        <span class="cyan-text">Sitios</span> populares</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi distinctio eos modi ducimus cumque, earum
+        beatae
+        libero consequatur iste dolorum eum odio aspernatur ipsa, adipisci magnam ullam nulla eaque nemo soluta
+        suscipit.
+        Pariatur atque numquam sint, corporis odio labore earum.</p>
+
+      <article class="left-align ">
+        <h3 id="hoteles">Hoteles</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum quo ut eveniet mollitia! Et
+          perspiciatis sunt
+          aspernatur. Quo, autem ut assumenda doloribus sapiente facere nihil voluptatibus error beatae consequuntur.</p>
+
+        <!--Tabs que contiene las caracteristicas de descripcion,lugares y galeria de los lugares -->
+
+
+        <div class="row">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s3">
+                <a href="#lugar">Lugar</a>
+              </li>
+              <li class="tab col s3">
+                <a href="#descripcion">Descripción</a>
+              </li>
+              <li class="tab col s3">
+                <a href="#galeria">Galeria</a>
+              </li>
+            </ul>
+          </div>
+
+          <!--Caurusel de tarjetas -->
+          <div id="lugar" class="carousel">
+
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/hoteles01a.jpg">
+                  <span class="card-title">
+                    Marriott Cancun Resort
+                  </span>
+                </div>
+
+                <span class="card-content" style="font-size: 90%">
+                  <p>Cancelación gratuita Reserva ahora y paga durante la estancia</p>
+                </span>
+                <div class="card-action" style="font-size: 65%">
+                  <a id="botonIrDescripcion1" onclick="botonPresionadoDescripcion()" href="#!">Saber mas</a>
+                  <a id="botonIrGaleria1" onclick="botonPresionadoGaleria()" href="#!">Galería</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/hoteles02a.jpg">
+                  <span class="card-title">
+                    Emporio Cancun
+                  </span>
+                </div>
+
+                <span class="card-content">
+                  <p>Cancelación gratuita. Reserva ahora y paga durante la estancia</p>
+                </span>
+                <div class="card-action" style="font-size: 65%">
+                  <a id="botonIrDescripcion2" onclick="botonPresionadoDescripcion()" href="#!">Saber mas</a>
+                  <a id="botonIrGaleria2" onclick="botonPresionadoGaleria()" href="#!">Galería</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/hoteles03a.jpg">
+                  <span class="card-title">
+                    The Westin Resort & Spa Cancún
+                  </span>
+                </div>
+
+                <span class="card-content" style="font-size: 90%">
+                  <p>Cancelación gratuita. Reserva ahora y paga durante la estancia</p>
+                </span>
+                <div class="card-action" style="font-size: 65%">
+                  <a id="botonIrDescripcion3" onclick="botonPresionadoDescripcion()" href="#!">Saber mas</a>
+                  <a id="botonIrGaleria3" onclick="botonPresionadoGaleria()" href="#!">Galería</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/hoteles04a.jpg">
+                  <span class="card-title">
+                    Comfort Inn Cancun Aeropuerto
+                  </span>
+                </div>
+
+                <span class="card-content" style="font-size: 90%">
+                  <p>Cancelación gratuita. Reserva ahora y paga durante la estancia</p>
+                </span>
+                <div class="card-action" style="font-size: 65%">
+                  <a id="botonIrDescripcion4" onclick="botonPresionadoDescripcion()" href="#!">Saber mas</a>
+                  <a id="botonIrGaleria4" onclick="botonPresionadoGaleria()" href="#!">Galería</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/hoteles05a.jpg">
+                  <span class="card-title">
+                    Krystal Grand Punta Cancun
+                  </span>
+                </div>
+
+                <span class="card-content" style="font-size: 90%">
+                  <p>Cancelación gratuita. Reserva ahora y paga durante la estancia</p>
+
+                </span>
+                <div class="card-action" style="font-size: 65%">
+                  <a id="botonIrDescripcion5" onclick="botonPresionadoDescripcion()" href="#!">Saber mas</a>
+                  <a id="botonIrGaleria5" onclick="botonPresionadoGaleria()" href="#!">Galería</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/hoteles08a.jpg">
+                  <span class="card-title">
+                    Krystal Cancun
+                  </span>
+                </div>
+
+                <span class="card-content" style="font-size: 90%">
+                  <p>Cancelación gratuita. Reserva ahora y paga durante la estancia</p>
+                </span>
+                <div class="card-action" style="font-size: 65%">
+                  <a id="botonIrDescripcion6" onclick="botonPresionadoDescripcion()" href="#!">Saber mas</a>
+                  <a id="botonIrGaleria6" onclick="botonPresionadoGaleria()" href="#!">Galería</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="descripcion" class="col s12 blue">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos ea aliquid hic perferendis. Recusandae,
+            repellat sint
+            sit, odit laborum minima possimus impedit amet nisi obcaecati autem libero molestias quibusdam.
+          </div>
+          <div id="galeria" class="col s12 pink">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quos ea aliquid hic perferendis. Recusandae,
+            repellat sint
+            sit, odit laborum minima possimus impedit amet nisi obcaecati autem libero molestias quibusdam.
+
+
+          </div>
+
+        </div>
+      </article>
+
+      <!--inicio de Seccion de playas-->
+      <article>
+        <h3 id="playas">Playas</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum quo ut eveniet mollitia! Et
+          perspiciatis sunt
+          aspernatur. Quo, autem ut assumenda doloribus sapiente facere nihil voluptatibus error beatae consequuntur.</p>
+
+        <!--inicio renglon-->
+        <div class="row">
+
+          <div class="col s6 m4">
+
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/playa01a.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Totrugas Cancún
+                  <i class="material-icons right">more_vert</i>
+                </span>
+                <p>
+                  <a href="#">saber mas..</a>
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Tortugas Cancún
+                  <i class="material-icons right">close</i>
+                </span>
+                <p>imagen de la playa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s6 m8">
+            <h5 class="center">Tortugas Cancún</h5>
+            <p> Es la playa ideal para practicar deportes acuáticos como snorkel, natación y bungee jumping. Playa
+              Tortugas es
+              una de las más concurridas playas públicas de Cancún y ofrece además de sol y arena, un ambiente festivo
+              permanente.
+              Es el lugar indicado si deseas andar de fiesta en Cancún. Puedes jugar voleibol de playa u otros
+              deportes,
+              tirarte al sol, bailar o relajarte tomando un buen coctel. Aunque no es tan grande como otras playas de
+              Cancún,
+              hay suficiente espacio para que pongas tu toalla sobre la arena y disfrutes de un hermoso día en este
+              lugar.
+              Está ubicada en el kilómetro 6.5 de la Zona Hotelera.</p>
+          </div>
+          <!--fin de la tarjeta-->
+        </div>
+        <!--fin renglon-->
+
+        <!--Inicio expandir Botenes expandir y contraer contenido (COLLAPSE)-->
+        <div class="row">
+          <div class="col s6 m3 offset-m9 right-align">
+            <a class="waves-effect waves-light btn" id="expandirIslas">
+              <i class="material-icons md-18 right">expand_more</i>Más</a>
+          </div>
+        </div>
+        <!--Fin expandir Botenes expandir y contraer contenido-->
+        <!--MAS ISLAS (FUNCION COLLAPSE)-->
+        <!--Inicio del collapsible-->
+        <ul class="colapsoIslas" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons">more_vert</i>
+              Mas islas
+              <span class="new badge">8</span>
+            </div>
+            <div class="collapsible-body">
+
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa02a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playas delfines
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playas delfines
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.3040907080135!2d-86.78215548506684!3d21.060513485981218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e82805393f507%3A0x312508e4b674ef21!2sPlaya+Delfines!5e0!3m2!1ses!2smx!4v1531390424756"
+                        width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m8">
+                  <h5 class="center">Playa delfines</h5>
+                  <p>Siendo otra de las mejores playas de Cancún, Playa Delfines cuenta con un amplio espacio para los
+                    que gustan
+                    de relajarse, con un fuerte oleaje, ideal para practicar surf. Si andas en busca de las buenas
+                    fotos
+                    de playas de Cancún no dejes de tomarte una fotografía en el “Cancún spot” un gigante letrero que
+                    se
+                    ha convertido en un ícono de la ciudad. Otra de las mejores actividades que hacer en Cancún tiene
+                    lugar
+                    en esta playa. Por las mañanas es posible ver los delfines que andan muy cerca de la orilla, pero
+                    es
+                    recomendable contratar un tour para apreciar mejor a estas bellas criaturas y nadar junto a ellos.
+                    Aunque
+                    no encontrarás grandes comercios, en Playa Delfines Cancún hay muchos puesteros ambulantes que
+                    venden
+                    auténtica comida mexicana. Es una playa más frecuentada por la gente local, por lo que la comida es
+                    más
+                    bien tradicional y mucho más barata que en otros lugares. Está situada en el kilómetro 18 de la
+                    zona
+                    hotelera, cercana a Punta Nizuc.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa03a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Langosta
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa langosta
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Langosta</h5>
+                  <p>Es una de las mejores para disfrutar tranquilamente debido a sus aguas tranquilas, lo que la
+                    convierte
+                    en un lugar muy popular y familiar, ideal para llevar a tus niños sin tener que preocuparte
+                    demasiado
+                    por los peligros del mar. Playa Langosta en Cancun no es apta para el surf, pero podrás practicar
+                    otros
+                    divertidos deportes como el fútbol y voleibol playeros. También brinda la posibilidad de nadar con
+                    delfines.
+                    Está ubicada en el centro del extremo norte de la Zona Hotelera y frente a la Bahía de Mujeres, en
+                    el
+                    km. 5. Tiene un muelle con servicios para trasladarse hacia Isla Mujeres y para hacer otros tours.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa04a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Caracol
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa Caracol
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Caracol</h5>
+                  <p>Esta playa es de fina arena, aguas calmas y poco profundas. Ideal para nadar y relajarse debido a
+                    la tranquilidad
+                    de su ambiente, bastante apartada de las grandes fiestas y multitudes. La Playa Caracol Cancún
+                    cuenta
+                    con un hermoso muelle con un mirador para gozar de una vista panorámica inigualable además de
+                    excelentes
+                    ofertas en hoteles y restaurantes. Está ubicada en el 8,5 km de la Zona Hotelera..</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa05a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Linda
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa Linda
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Linda</h5>
+                  <p>Es una de las mejores playas de Cancún para la natación. El agua se asemeja a una gran piscina en
+                    ésta
+                    bella playa de Cancún y es el punto de partida para realizar muy buenas excursiones de buceo.
+                    Además
+                    cuenta con una amplia oferta en bares y sitios para comer muy cercanos a la playa. Tiene un Muelle
+                    para
+                    la entrada y salida de transbordadores que van y vienen hacia Isla Mujeres. Ubicada a 4km de la
+                    Zona
+                    Hotelera, muy cercana al centro de la ciudad.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa06a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Ballenas Cancún
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa Ballenas Cancún
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Ballenas Cancún</h5>
+                  <p>Un espacio apacible para los que prefieren el relax, antes que el clima fiestero de las playas más
+                    céntricas.
+                    Esta playa es ideal para practicar deportes náuticos por situarse en la zona de mar abierto. Pon
+                    atención
+                    a señales de advertencia del personal de seguridad porque las corrientes aquí suelen ser muy
+                    fuertes
+                    durante todo el año. Está ubicada entre Punta Cancún y Punta Nizuc, en el kilómetro 14 de la Zona
+                    Hotelera.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa07a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Forum Cancún
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa Forum Cancún
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Forum Cancún</h5>
+                  <p>Es una de las playas más visitadas de Cancún, está ubicada detrás del Plaza Fórum, muy cercana a
+                    las mejores
+                    discos, bares y restaurantes, y a un lindo mercado de artesanías. El oleaje de la Playa Forum
+                    (también
+                    conocida como Playa Gaviota Azul) es más bien intenso, muy bueno para practicar surf. Es muy
+                    limpia,
+                    y se pueden alquilar mesas, sombrillas y reposeras a precios accesibles.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa08a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Las Perlas
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa las Perlas
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Las Perlas</h5>
+                  <p>Con un ambiente familiar y tranquilo, este es otra excelente playa para nadar y practicar deportes
+                    acuáticos,
+                    con muchos juegos especiales para niños y para toda la familia. Rodeada de sitios para comer y
+                    bares,
+                    cuenta con estacionamiento, baños públicos en muy buenas condiciones y excelentes instalaciones en
+                    general.
+                    Está situada en el kilómetro 2.5 de la Zona Hotelera.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa09a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Chac mool
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa Chac mool
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Chac Mool</h5>
+                  <p>De los nombres de playas de Cancún, Chac Mool es una de las pocas que tienen un nombre maya, el
+                    mismo que
+                    se le da a las esculturas de piedra de los tiempos precolombinos en Mesoamérica. Ubicada en una
+                    zona
+                    de mar abierto, caracterizada por su amplitud y un oleaje bastante agitado recibe a miles de
+                    turistas
+                    cada año. Genial para practicar deportes acuáticos. Es muy cercana a varios puntos de
+                    entretenimiento
+                    como Señor Frogs, uno de los mejores restaurantes de Cancún. Posee baños y regaderas en muy buenas
+                    condiciones,
+                    salvavidas, y un pequeño estacionamiento. Ubicada en el Km 10 de la Zona Hotelera.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa10a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Nizuc
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa Nizuc
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Nizuc</h5>
+                  <p>Es una de las playas de Cancún Quintana Roo menos conocida y frecuentada. Sin embargo, para los
+                    inseparables
+                    de sus mascotas esta es la mejor playa de Cancún, ya que brinda la posibilidad de pasar un hermoso
+                    día
+                    con ellos en un espacio de gran tranquilidad, algo que está prohibido en la mayoría de las otras.
+                    Está
+                    alejada de los lugares de gran concentración del turismo por lo que es seguro que no encuentres
+                    mucha
+                    gente aquí. El horario para llevar a tus mascotas es de 5 am a 11 am. Está ubicada en el kilómetro
+                    25
+                    del Boulevard Kukulcán.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s6 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/playa11a.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Playa Punta Cancún
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Playa Punta Cancún
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen de la playa</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s6 m8">
+                  <h5 class="center">Playa Punta Cancún</h5>
+                  <p>Es una de las playas de Cancún Quintana Roo menos conocida y frecuentada. Sin embargo, para los
+                    inseparables
+                    de sus mascotas esta es la mejor playa de Cancún, ya que brinda la posibilidad de pasar un hermoso
+                    día
+                    con ellos en un espacio de gran tranquilidad, algo que está prohibido en la mayoría de las otras.
+                    Está
+                    alejada de los lugares de gran concentración del turismo por lo que es seguro que no encuentres
+                    mucha
+                    gente aquí. El horario para llevar a tus mascotas es de 5 am a 11 am. Está ubicada en el kilómetro
+                    25
+                    del Boulevard Kukulcán.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+            </div>
+          </li>
+
+        </ul>
+        <!--Fin del collapsible-->
+
+        <!--fin de Seccion de playas-->
+        <!--Inicio de la seccion Antros-->
+
+        <article class="left-align ">
+          <h3 id="antros">Antros</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum quo ut eveniet mollitia! Et
+            perspiciatis sunt
+            aspernatur. Quo, autem ut assumenda doloribus sapiente facere nihil voluptatibus error beatae consequuntur.</p>
+
+          <!--inicio renglon-->
+          <div class="row">
+
+            <div class="col s6 m4">
+
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/antros01a.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Coco Bongo
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="#">saber mas..</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Coco Bongo
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>
+                    <address>
+                      Dirección: Blvd. Kukulcan Km 9.5 #30, Plaza Forum By The Sea, Zona Hotelera
+                      <br> Tel.: +01 800 841 46 36 / (998)883 23 73
+                      <br>Sitio web: http://www.cocobongo.com
+                    </address>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s6 m8">
+              <h5 class="center">Coco Bongo</h5>
+              <p> Esta famosa discoteca es uno de los mejores lugares que visitar en Cancún, debido entre otras cosas a
+                sus proyecciones
+                en pantallas gigantes y shows de acrobacias.La discoteca Coco Bongo Cancún es una de las más grandes de
+                México
+                y se caracteriza por su atmósfera festiva y alegre con acróbatas de primer nivel, excelentes tributos
+                musicales
+                y una gran variedad de bebidas y cocteles. En Coco Bongo Cancún los precios rondan los 75USD por
+                entrada
+                e incluyen además los shows y bebidas libres en un determinado horario. </p>
+            </div>
+            <!--fin de la tarjeta-->
+          </div>
+          <!--fin renglon-->
+
+          <!--Inicio expandir Botenes expandir y contraer contenido (COLLAPSE)-->
+          <div class="row">
+            <div class="col s6 m3 offset-m9 right-align">
+              <a class="waves-effect waves-light btn" id="expandirAntros">
+                <i class="material-icons md-18 right">expand_more</i>Más</a>
+            </div>
+          </div>
+          <!--Fin expandir Botenes expandir y contraer contenido-->
+          <!--MAS ANTROS (FUNCION COLLAPSE)-->
+          <!--Inicio del collapsible-->
+          <ul class="colapsoAntros" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">more_vert</i>
+                Antros
+                <span class="new badge">7</span>
+              </div>
+              <div class="collapsible-body">
+                <!--inicio renglon-->
+                <div class="row">
+
+                  <div class="col s6 m4">
+
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/antros02a.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mandala Nigth Club
+                          <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                          <a href="#">saber mas..</a>
+                        </p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mandala Nigth Club
+                          <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                          <address>
+                            Dirección: Blvd. Kukulcán Km 9, Zona Hotelera Tel.: +52 (998) 848 8380 Sitio web:
+                            http://www.mandalanightclub.com/
+                          </address>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s6 m8">
+                    <h5 class="center">Mandala Nigth Club</h5>
+                    <p>Esta discoteca es uno de los clubs nocturnos más famosos en Cancún. Brinda un ambiente especial
+                      y exótico,
+                      con una decoración asiática. Se realizan fiestas de Mardi Grass, concursos de bikini y numerosos
+                      shows
+                      de diferentes estilos. Su ubicación es ideal, en plena Zona Hotelera y cerca de los principales
+                      hoteles
+                      de Cancún. En Mandala Cancun los precios aproximados de acceso son de 55USD, aunque varían
+                      dependiendo
+                      de la época del año y del show que ofrezca en el momento.</p>
+                  </div>
+                  <!--fin de la tarjeta-->
+                </div>
+                <!--fin renglon-->
+                <!--inicio renglon-->
+                <div class="row">
+
+                  <div class="col s6 m4">
+
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/antros03a.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">The city Cancún
+                          <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                          <a href="#">saber mas..</a>
+                        </p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">The city Cancún
+                          <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                          <address>
+                            Dirección: Blvd Kukulcan Km 9.5, Zona Hotelera Tel.: +52(998) 883 3333 Sitio
+                            web:http://thecitycancun.com/
+                          </address>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s6 m8">
+                    <h5 class="center">The city Cancún</h5>
+                    <p>The City Cancún, es uno de los principales antros en México y es reconocida por muchos como la
+                      discoteca
+                      más grande de América Latina, y el lugar en dónde se realizan las fiestas más explosivas de la
+                      ciudad.
+                      Está cerca de la playa y tiene una capacidad mayor a las 6,000 personas. La vida nocturna del
+                      lugar
+                      se caracteriza por los numerosos conciertos y shows en vivo que realizan, entre los que se
+                      destacan
+                      las presentaciones de DJs reconocidos mundialmente. En The City Cancún los precios empiezan desde
+                      55USD
+                      aproximadamente.
+                    </p>
+                  </div>
+                  <!--fin de la tarjeta-->
+                </div>
+                <!--fin renglon-->
+                <!--inicio renglon-->
+                <div class="row">
+
+                  <div class="col s6 m4">
+
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/antros04a.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Palazzo Cancún
+                          <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                          <a href="#">saber mas..</a>
+                        </p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Palazzo Cancún
+                          <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                          <address>
+                            Dirección: Boulevard Kukulcán, Tel.:+52 998 883 3333 Ext 138 Sitio web:
+                            http://palazzodisco.com/cancun.html
+                          </address>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s6 m8">
+                    <h5 class="center">Palazzo Cancún</h5>
+                    <p> Palazzo es una de las discotecas en Cancún de más reciente creación. Este club nocturno es muy
+                      exclusivo
+                      y glamoroso, con servicio de alta calidad. Ideal para escuchar distintos ritmos musicales
+                      (principalmente
+                      hip hop, electrónica, rap y rock) y pasársela de fiesta toda la noche. El precio para extranjeros
+                      es
+                      aproximadamente de 50USD con barra libre y de $350MXN para locales.</p>
+                  </div>
+                  <!--fin de la tarjeta-->
+                </div>
+                <!--fin renglon-->
+                <!--inicio renglon-->
+                <div class="row">
+
+                  <div class="col s6 m4">
+
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/antros05a.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Daddy´o
+                          <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                          <a href="#">saber mas..</a>
+                        </p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Daddy´o
+                          <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                          <address>
+                            Dirección: Blvd. Kukulcan k.m 9.5 Zona Hotelera Tel.: +52 998 883 3333 Ext 138 Sitio web:
+                            http://dadyo.com.mx/
+                          </address>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s6 m8">
+                    <h5 class="center">Daddy´o</h5>
+                    <p>Dady´O Cancun es otro de los mejores antros de Cancún que recibe miles de visitantes cada noche.
+                      Es un
+                      auténtico viaje en el tiempo a los 80’s y 90’s, con los geniales shows de luces, intervenciones
+                      de
+                      DJs, concursos de bikini, efectos especiales, etc. La barra libre cuesta unos $50USD para
+                      extranjeros.</p>
+                  </div>
+                  <!--fin de la tarjeta-->
+                </div>
+                <!--fin renglon-->
+                <!--inicio renglon-->
+                <div class="row">
+
+                  <div class="col s6 m4">
+
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/antros06a.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">La Vaquita
+                          <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                          <a href="#">saber mas..</a>
+                        </p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">La Vaquita
+                          <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                          <address>
+                            Dirección: Boulevard Kukulcán Tel.: +52 998 883 3333 Ext 138 Sitio web:
+                            http://lavaquitadisco.com/
+                          </address>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s6 m8">
+                    <h5 class="center">La Vaquita</h5>
+                    <p>Es una de las discotecas de Cancún de mayor originalidad y extravagancia. Ofrece un ambiente
+                      enérgico
+                      y divertido con un excelente servicio y muy buena música. Todo el sitio está ambientado como un
+                      establo
+                      en el que vive "La Vaquita", quien le da al público sus bebidas. Un dato interesante es que todas
+                      las
+                      bebidas disponibles en la barra libre se sirven en vasos de 1 litro. Puedes conseguir una entrada
+                      a
+                      partir de 40USD.</p>
+                  </div>
+                  <!--fin de la tarjeta-->
+                </div>
+                <!--fin renglon-->
+                <!--inicio renglon-->
+                <div class="row">
+
+                  <div class="col s6 m4">
+
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/antros07a.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mandala Beach
+                          <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                          <a href="#">saber mas..</a>
+                        </p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mandala Beach
+                          <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                          <address>
+                            Dirección: Boulevard Kukulkan Km. 8.5, Zona Hotelera Tel.: +52 998 883 3333 Sitio web:
+                            http://mandalabeach.com/
+                          </address>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s6 m8">
+                    <h5 class="center">Mandala Beach</h5>
+                    <p>Combina la fiesta y diversión con la belleza del mar y las playas de Cancún. Ofrece increíbles
+                      tragos
+                      y bebidas tropicales. Además, este club de playa posee grandes piscinas y jacuzzis, organiza
+                      actividades
+                      nocturnas y concursos playeros. Todo esto acompañado de la mejor música de onda del momento. En
+                      Mandala
+                      Cancún por un precio de 55USD puedes obtener el acceso a ésta discoteca y a la barra libre.</p>
+                  </div>
+                  <!--fin de la tarjeta-->
+                </div>
+                <!--fin renglon-->
+
+                <!--inicio renglon-->
+                <div class="row">
+
+                  <div class="col s6 m4">
+
+                    <div class="card">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/antros08a.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Bulldog Cancún
+                          <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                          <a href="#">saber mas..</a>
+                        </p>
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bulldog Cancún
+                          <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                          <address>
+                            Dirección: Boulevard Kukulcán; 77500 Cancún, Quintana Roo. Tel.: 5611-8818 5598-1614 Sitio
+                            web: http://bulldogcafe.com/
+                          </address>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s6 m8">
+                    <h5 class="center">Bulldog Cancún</h5>
+                    <p>Excelente alternativa para disfrutar la vida nocturna de Cancún con los mejores conciertos en
+                      vivo, con
+                      artistas de calidad y variados géneros musicales. El Antro Bulldog Cancún ha recibido en sus
+                      escenarios
+                      a importantes bandas internacionales como Radiohead, Guns´n roses, Poison, The Misfits, y otras
+                      del
+                      rock hispano como Molotov, Jarabe de Palo, Zurdok, Jumbo, etc. Aquí puedes disfrutar además, de
+                      magníficos
+                      baños y tragos en sus Jacuzzis. El rango de precios va desde $500 MXN a $1000 MXN</p>
+
+                  </div>
+                  <!--fin de la tarjeta-->
+                </div>
+                <!--fin renglon-->
+
+              </div>
+            </li>
+          </ul>
+          <!--Fin del collapsible-->
+        </article>
+
+
+
+        <!--Fin de la seccion antros-->
+
+        <!--Inicio de la seccion Cenotes-->
+        <article>
+          <h3 id="cenotesIslas">Cenotes e Islas</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum quo ut eveniet mollitia! Et
+            perspiciatis sunt
+            aspernatur. Quo, autem ut assumenda doloribus sapiente facere nihil voluptatibus error beatae consequuntur.</p>
+
+          <!--Listado Tabs de cenotes-->
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s3">
+                  <a href="#cenote1">Chac Mool</a>
+                </li>
+                <li class="tab col s3">
+                  <a href="#cenote2">Xkekén</a>
+                </li>
+                <li class="tab col s3">
+                  <a href="#cenote3">Cenote Sagrado</a>
+                </li>
+                <li class="tab col s3">
+                  <a href="#cenote4">Tajma-hál</a>
+                </li>
+              </ul>
+              <!--fin del listado de los cenotes-->
+            </div>
+            <!--Inicio del contenido del listado-->
+            <!--Inicio contenido 1-->
+            <div id="cenote1" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s12 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/cenote01.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Chac Mool
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Chac Mool
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen del cenote</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m8">
+                  <h5 class="center">Chac Mool</h5>
+                  <p>Ubicado en Puerto Aventuras, el Chac Mool posee dos entradas que conducen a sus respectivas
+                    cavidades,
+                    la primera de dimensiones considerables y la segunda sembrada de estalagmitas. Te va a encantar,
+                    porque
+                    el hecho de que en su lecho confluyan aguas dulces y saladas provocan el fenómeno conocido como
+                    haloclina,en
+                    el que las capas de distintas salinidades forman columnas perfectamente delimitadas. Aunque Chac
+                    Mool
+                    es uno de los cenotes preferidos por los buceadores con poca práctica, resulta esencial que
+                    respetes
+                    las señalizaciones de peligro y no traspases las zonas cerradas al uso público, ya que no hacerlo
+                    puede
+                    conllevar accidentes con fatales desenlaces.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+            </div>
+            <!--fin contenido 1-->
+
+            <!--inicio del contenido 2-->
+            <div id="cenote2" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s12 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/cenote02.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Xkekén
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Xkekén
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen del cenote</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m8">
+                  <h5 class="center">Xkekén</h5>
+                  <p>Este cenote está a 3 kilómetros de Valladolid, en la carretera que une la ciudad con Mérida; así
+                    que las
+                    comunicaciones son excelentes. Aquí vas a experimentar una sensación espectacular, porque el acceso
+                    a
+                    la gruta cubierta es a través de una abertura bastante estrecha, por lo que cuando el espacio se
+                    abre
+                    hacia una monumental estancia, la magia resulta hechizante. Xkekénestá muy bien acondicionado por
+                    ser
+                    uno de los cenotes más turísticos. Posee estupendos accesos, instalaciones con barandillas, cuerdas
+                    para
+                    ir sujetándote y descansar mientras nadas y recorres sus amplios espacios, plataformas donde
+                    acomodarse.
+                    Las aguas cristalinas de un intenso azul turquesa y sus majestuosas estalactitas no te
+                    decepcionarán.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+            </div>
+            <!--fin del contenido2-->
+
+            <!--Inicio del contenido 3-->
+            <div id="cenote3" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s12 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/ciudad01.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Cenote sagrado
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Cenote sagradro
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen del cenote</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m8">
+                  <h5 class="center">Cenote sagrado</h5>
+                  <p>A sólo 5 kilómetros de Chichen itzá se encuentra este cenote a cielo abierto que, en la antigüedad
+                    se utilizaba,
+                    como casi todos, con fines sagrados. Con 60 metros de diámetro y paredes cortadas de 15 metros, se
+                    encuentra
+                    conectado con la pirámide de Kukulcán a través de un camino de 300 metros. Su cercanía lo hacía
+                    importante
+                    para los habitantes mayas de la zona, que utilizaban el cenote sagrado para lanzar vírgenes en
+                    sacrificio
+                    para contentar al dios de la lluvia. En su fondo se han encontrado restos de mujeres jóvenes
+                    ataviadas
+                    con ropajes muy elaborados. Este es el cenote idóneo para que dejes volar la imaginación y
+                    encontrarte
+                    con nuestros antepasados.</p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+            </div>
+            <!--fin del contenido 3-->
+            <!--Inicio del contenido 4-->
+            <div id="cenote4" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+
+                <div class="col s12 m4">
+
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/compras01.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Tajma-hál
+                        <i class="material-icons right">more_vert</i>
+                      </span>
+                      <p>
+                        <a href="#">saber mas..</a>
+                      </p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Tajma-hál
+                        <i class="material-icons right">close</i>
+                      </span>
+                      <p>imagen del cenote</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s12 m8">
+                  <h5 class="center">Tajma-hál</h5>
+                  <p>Este es el nombre local del Cenote Taj Mahal, que ha tomado su denominación del famoso monumento
+                    indio,
+                    gracias a la majestuosidad de este prodigio natural. En realidad son cuatro cenotes
+                    intercomunicados
+                    a 25 kilómetros al sur de Playa del Carmen. Está muy bien preparado, con baños y restaurante, pero
+                    para
+                    explorarlo en su plenitud tendrás que ser un experto buceador y superar la pared de cinco metros de
+                    profundidad
+                    que permite acceder a grandiosas cavidades. El paisaje de estalactitas y estalagmitas te va a
+                    resultar
+                    de una belleza abrumadora.
+                  </p>
+                </div>
+                <!--fin de la tarjeta-->
+              </div>
+              <!--fin renglon-->
+            </div>
+            <!--fin del contenido 4-->
+          </div>
+
+          <!--fin del contenido del listado-->
+        </article>
+        <!--fin de la seccion cenotes-->
+
+
+        <article>
+          <h3 id="parques">Parques</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum quo ut eveniet mollitia! Et
+            perspiciatis sunt
+            aspernatur. Quo, autem ut assumenda doloribus sapiente facere nihil voluptatibus error beatae consequuntur.</p>
+          <!--inicio renglon-->
+          <div class="row">
+            <div class="col s12">
+              <!--inic listado-->
+              <ul class="tabs">
+                <li class="tab col s3">
+                  <a href="#parque1">
+                    <span>Tulum y Xel-Ha</span>
+                  </a>
+                </li>
+                <li class="tab col s3">
+                  <a href="#parque2">Xcaret Plus Tour</a>
+                </li>
+                <li class="tab col s3">
+                  <a href="#parque3">Tulum y Xel-Ha</a>
+                </li>
+                <li class="tab col s3">
+                  <a href="#parque4">Royal Garrafón</a>
+                </li>
+              </ul>
+              <!--fin del listado-->
+              <!--fin del listado de los cenotes-->
+            </div>
+
+            <!--Inicio del contenido del listado-->
+            <!--Inicio contenido 1-->
+            <div id="parque1" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Tulum y Xel-Ha</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/parques01.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>La perfecta combinación entre la maravilla natural y la cultura en este excelente tour donde
+                          visitaremos
+                          las ruinas mayas de Tulum y el parque natural de Xel-Ha</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 1-->
+            <!--Inicio contenido 2-->
+            <div id="parque2" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Xcaret Plus Tour</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/parques03.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>Uno de los mejores eco-parques de mundo y la atracción más visitada en la Riviera Maya</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 2-->
+            <!--Inicio contenido 3-->
+            <div id="parque3" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Tulum y Xel-Ha</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/parques04.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>La perfecta combinación entre la maravilla natural y la cultura en este excelente tour donde
+                          visitaremos
+                          las ruinas mayas de Tulum y el parque natural de Xel-Ha</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 3-->
+            <!--Inicio contenido 4-->
+            <div id="parque4" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Royal Garrafón + Nado con Delfines</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/parques05.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>Disfruta todo lo que el Parque Natural Garrafón ofrece y la inolvidable experiencia de nadar
+                          con
+                          los delfines en Isla Mujeres.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 4-->
+          </div>
+          <!--fin del renglon-->
+        </article>
+        <!--Fin seccion de parques-->
+        <!--Inicio de seccion de centros comerciales-->
+        <article class="left-align ">
+          <h3 id="centros">Centros comerciales</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illum quo ut eveniet mollitia! Et
+            perspiciatis sunt
+            aspernatur. Quo, autem ut assumenda doloribus sapiente facere nihil voluptatibus error beatae consequuntur.</p>
+          <div class="row">
+            <div class="col s12">
+              <!--inic listado-->
+              <ul id="listadoPersonalizado" class="tabs">
+                <li class="tab col s12 m3" {font-size: 50%}>
+                  <a href="#comercial1">Shopping Village</a>
+                </li>
+                <li class="tab col s12 m3" {font-size: 50%}>
+                  <a href="#comercial2">Plaza Las Américas</a>
+                </li>
+                <li class="tab col s12 m3" {font-size: 50%}>
+                  <a href="#comercial3">Plaza Kukulkán</a>
+                </li>
+                <li class="tab col s12 m3" {font-size: 50%}>
+                  <a href="#comercial4">Las Plazas Outlet</a>
+                </li>
+              </ul>
+              <!--fin del listado-->
+              <!--fin del listado de los cenotes-->
+            </div>
+
+            <!--Inicio del contenido del listado-->
+            <!--Inicio contenido 1-->
+            <div id="comercial1" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Shopping Village</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/comercial01.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>Esta plaza tiene un diseño arquitectónico distinto, como lo demuestra el hecho de estar al
+                          aire libre
+                          sin perder la modernidad necesaria en los centros comerciales.Se sitúa a la orilla de la
+                          Laguna
+                          Nichupté y cuenta con más de 150 tiendas, las más exclusivas de ellas localizadas en la
+                          sección
+                          llamada Fashion Harbour. En su zona de restaurantes verás el mejor atardecer de Cancún y una
+                          fuente
+                          danzarina bellamente iluminada por la noche.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 1-->
+            <!--Inicio contenido 2-->
+            <div id="comercial2" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Plaza las Américas</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/comercial02.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>Plaza las Américas es el lugar más popular para ir de compras en Cancún. Es aquí donde se
+                          encuentran
+                          las tiendas departamentales de la ciudad y marcas para clientes con diferente presupuesto. La
+                          sección
+                          más moderna es Malecón Américas, cuya principal característica es la linda vista que ofrece
+                          al
+                          Malecón Tajamar desde su terraza situada en el segundo piso.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 2-->
+            <!--Inicio contenido 3-->
+            <div id="comercial3" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Plaza Kukulkán</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/comercial03.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>Plaza Kukulkán está ubicada en la zona más exclusiva de la Zona Hotelera, cerca de los
+                          principales
+                          hoteles de cinco estrellas y Gran Turismo. Tiene una sección llamada Luxury Avenue en la cual
+                          exhiben
+                          sus productos las más sofisticadas marcas de ropa, zapatería, joyas, perfumería y cosméticos.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 3-->
+            <!--Inicio contenido 4-->
+            <div id="comercial4" class="col s12">
+              <!--inicio renglon-->
+              <div class="row">
+                <div class="col s12">
+                  <h4 class="header">Las Plazas Outlet</h4>
+                  <div class="card horizontal">
+                    <div class="card-image">
+                      <img src="img/comercial04.jpg">
+                    </div>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>Al igual que La Isla, Las Plazas Outlet tiene una arquitectura al aire libre que la hace
+                          diferente
+                          a los centros comerciales tradicionales. Los locales y turistas se reúnen aquí para encontrar
+                          las
+                          mejores ofertas y descuentos en Cancún en productos como ropa, zapatos y accesorios
+                          deportivos.
+                          Cabe destacar que es el único establecimiento de su tipo en toda la Península de Yucatán.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">saber mas...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--fin contenido 4-->
+
+          </div>
+          <!--Fin del renglon-->
+
+        </article>
+        <!--Fin de seccion de centros comerciales-->
+    </section>
+
+  </div>
+  <!--FIN DEL CONTENEDOR DE LUGARES CHIDOS-->
+  <!--INICIO CONTENEDOR CONTACTO-->
+  <div id="contenedor3" class="container">
+    <section>
+      <h2 id="contacto" class="center">
+        <span class="cyan-text">Contacto</span>
+      </h2>
+      <div class="row">
+        <div class="col s12 m5 center">
+          <h5>Datos de contacto</h5>
+          <br>
+          <span>¿Sugerencias, dudas?. Contactanos.</span>
+          <br>
+          <br>
+          <address>
+            Calle 5 de mayo 4511, Col. Centro.
+            <br>
+            <br> C. P 72000 Telefono: 222-86-43-44
+            <br>
+            <br> e-mail: contacto@micancun.com
+          </address>
+        </div>
+        <div class="col s12 m7">
+          <h5 class="center">Mensaje</h5>
+          <form>
+            <div class="input-field col s12 l6">
+              <input type="text" id="primer_nombre" class="validate">
+              <label for="primer_nombre">Primer Nombre</label>
+            </div>
+            <div class="input-field col s12 l6">
+              <input type="text" id="segundo_nombre" class="validate">
+              <label for="segundo_nombre">Apellidos</label>
+            </div>
+            <div class="input-field col s12">
+              <input type="email" id="email" class="validate">
+              <label for="email" data-error="Correo Inválido" data-success="Correcto">Email</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="mensaje" class="materialize-textarea"></textarea>
+              <label for="mensaje">Mensaje</label>
+            </div>
+            <button class="btn waves-effect waves-light red" type="submit" name="action">Enviar
+              <i class="material-icons right">send</i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!--FIN DEL CONTENEDOR CONTACTO-->
+  <!--INICIO DEL FOOTER-->
+  <footer class="page-footer cyan lighten-2 valign-wrapper center">
+    <div class="container">
+      <p class="flow-text ">&copy; 2018 Copyright EduardoTC</p>
+    </div>
+  </footer>
+  <!--FIN DEL FOOTER-->
+
+  <script type="text/javascript " src="js/jquery-3.3.1.min.js "></script>
+  <script type="text/javascript " src="js/materialize.min.js "></script>
+  <script>
+    //Ejecucion despues de cargar la pagina
+    $(document).ready(
+      function () {
+        //Inicializa el Side nav
+        $('.button-collapse').sideNav();
+
+        //inicializa el slider
+        $('.slider').slider({
+          indicators: false,
+          height: 400,
+          transition: 500,
+          interval: 6000
+        });
+        //inicializador del dropdown
+        $('.dropdown-trigger').dropdown({
+          hover: true, //despliegue automático
+          constrainWidth: false, //corrige el ancho de los items
+          belowOrigin: true, //empieza el dezplegado abajo del boton activador
+        });
+
+        //Inicializador de el desplazamiento por tabs (ojo se añadio .carousel .carousel-item para ancho de todo el ancho del container)
+        /*$('ul.tabs').tabs({
+          swipeable: true,
+          responsiveThreshold: Infinity
+        });*/
+
+        //Inicializacion de las tabs
+        $('.tabs').tabs();
+
+        $('.carousel').carousel({
+          dist: 0,
+          shift: 0,
+          padding: 20,
+          numVisible: 6,
+          fullWidth: false
+
+        });
+
+        //iniciar el play del caurusel
+        autoplay();
+
+      }
+
+    );
+
+
+    /*FUNCIONES PERSONALIZADAS*/
+    //Activa el scroll del navbar
+    $("#inicioMovil, #nosotrosMovil, #contactoMovil ").click(function () {
+
+      $(".collapsible-header ").removeClass(function () {
+        return "active ";
+      });
+      $(".collapsible ").collapsible({
+        accordion: true
+      });
+      $(".collapsible ").collapsible({
+        accordion: false
+
+      });
+
+    });
+    //Evento al hacer click en el boton Descripcion de la tarjeta
+    $(
+      "#botonIrDescripcion1, #botonIrDescripcion2, #botonIrDescripcion3, #botonIrDescripcion4, #botonIrDescripcion5, #botonIrDescripcion6"
+    ).click(function () {
+      $('ul.tabs').tabs('select_tab', 'descripcion');
+    });
+    //Al hacer click en el boton Galeria de la tarjeta
+    $("#botonIrGaleria1, #botonIrGaleria2, #botonIrGaleria3, #botonIrGaleria4, #botonIrGaleria5, #botonIrGaleria6").click(
+      function () {
+        $('ul.tabs').tabs('select_tab', 'galeria');
+      });
+
+    function botonPresionadoDescripcion() {
+      $('#botonIrDescripcion').click();
+    }
+
+    function botonPresionadoGaleria() {
+      $('#botonIrGaleria').click();
+    }
+    /////////////
+
+    //funcion para hacer el caorusel atomático
+    function autoplay() {
+      $('.carousel').carousel('next');
+      setTimeout(autoplay, 4500);
+    }
+
+    //Inicio funcion Expandir y contraer islas renombré la clase por defecto  "collapsible" por colapsoIslas
+
+    var centinela1 = false;
+    var centinela2 = false;
+    $("#expandirIslas").click(function () {
+
+      if (centinela1 == false) {
+        //remplazar texto del boton html
+        $('#expandirIslas').html('<i class="material-icons md-18 right" >expand_less</i>Menos');
+
+        $(".collapsible-header").addClass("active");
+        //inicio activar dezplegar imformacion
+        $(".colapsoIslas").collapsible({
+          accordion: true
+        });
+        //fin activar dezplegar imformacion
+
+        /*<a class="waves-effect waves-light btn" id="expandirIslas">
+              <i class="material-icons md-18 right">expand_more</i>Más</a>*/
+        //$('.example_infobox .info-box-icon.bg-aqua').removeClass('bg-aqua').addClass('bg-green');
+        $('#expandirIslas.btn').removeClass('btn').addClass('btn deep-orange accent-4'); //cambia color
+
+        centinela1 = true;
+
+      } else {
+        //remplazar texto boton del html
+        $('#expandirIslas').html('<i class="material-icons md-18 right">expand_more</i>Más');
+        //inicio activar dezplegar imformacion
+        $(".collapsible-header").removeClass(function () {
+          return "active";
+        });
+        $(".colapsoIslas").collapsible({
+          accordion: false
+        });
+        //fin activar dezplegar imformacion
+        $('#expandirIslas.btn').removeClass('btn deep-orange accent-4').addClass('btn'); //cambia color
+
+        centinela1 = false;
+      }
+
+    });
+    //Fin de la función expandir Islas
+    //Inicio de la función de expandir Antros
+
+    $("#expandirAntros").click(function () {
+      if (centinela2 == false) {
+
+        $('#expandirAntros').html('<i class="material-icons md-18 right" >expand_less</i>Menos');
+
+        $(".collapsible-header").addClass("active");
+
+        $(".colapsoAntros").collapsible({
+          accordion: false
+        });
+
+        $('#expandirAntros.btn').removeClass('btn').addClass('btn deep-orange accent-4'); //cambia color
+        centinela2 = true;
+
+      } else {
+
+        $('#expandirAntros').html('<i class="material-icons md-18 right">expand_more</i>Más');
+
+        $(".collapsible-header").removeClass(function () {
+          return "active";
+        });
+        $(".colapsoAntros").collapsible({
+          accordion: true
+        });
+
+        $('#expandirAntros.btn').removeClass('btn deep-orange accent-4').addClass('btn'); //cambia color
+        centinela2 = false;
+      }
+
+    });
+    //Fin de la función expandir Antros
+  </script>
+
+
+</body>
+
+</html>

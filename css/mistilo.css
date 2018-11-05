@@ -1,0 +1,104 @@
+#vision,
+#mision,
+#recomandaciones,
+#hoteles,
+#playas,
+#cenotesIslas,
+#parques,
+#centros,
+#antros,
+#contacto {
+  font-family: 'Teko', sans-serif;
+}
+
+h4,
+h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/*Inicio de las propiedades del contenido de las tabs*/
+
+#lugar,
+#descripcion,
+#galeria {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#descripcion {
+  overflow: auto;
+}
+
+/*Inicio Propiedades de las cards*/
+
+.material-icons.md1::before {
+  content: 'search';
+}
+
+.material-icons.md1:hover::before {
+  content: 'navigate_next';
+}
+
+/*Fin Propiedades de las cards*/
+
+/*Inicio Propiedades del caurusel*/
+
+/*.carousel {
+    height: auto;
+    overflow: hidden;
+    min-height: 300px;
+}*/
+
+.tabs-content .carousel .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+/*fin Propiedades del caurusel*/
+
+/*Propiedades del collapsible*/
+
+.collapsible-header,
+.collapsible-body,
+.collapsible,
+ul.collapsible > li {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: #fff;
+}
+
+/*propiedade del parrafo del contenedor 2*/
+
+#contenedor2 p {
+  text-align: justify;
+  text-align: justify;
+}
+
+/*Propiedades del color y tamaño del texto de las tabs
+.tabs .tab a {
+    color: #00ACC1;
+    font-size: auto;
+}
+
+*/
+
+/*Propiedades de las tarjetas carrusel*/
+
+.card.title {
+  font-size: 70%;
+}
+
+/*Fin las propiedades de las targetas carrusel**/
+
+/*Propiedades de ul del listado de centros comerciales*/
+
+#listadoPersonalizado.tabs {
+  flex-direction: column;
+  height: 100%;
+  float: left;
+}
+
+/*Fin del ul*/
